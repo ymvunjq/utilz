@@ -73,8 +73,6 @@ def regroup_files(files,size):
             r.append(files[i])
             s += sizeof(files[i])
             i += 1
-        if i < len(files):
-            i+=1
         out.append(r)
     return out
 
